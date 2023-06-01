@@ -1,0 +1,122 @@
+.view{
+    background-color: rgb(190, 237, 239) ;
+    background-size: cover;
+}
+.welcome{
+    text-align: center;
+    margin: 50px 5%;
+}
+.welcome h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.home{
+    font-size: 20px;
+    margin: 40px 17% 20px 17%
+}
+#container{
+    width: 800px;
+    margin-top: 50px;
+}
+.gallerypha{
+    font-size: 20px;
+}
+
+.ticketpha{
+    font-size: 20px;
+    margin: 0 17%;
+}
+#ticketpic{
+    margin-left: 100px;
+}
+.ticketinfor{
+    margin-right: 50px;
+    font-size: 20px;
+}
+.typeticket{
+    text-align: left;
+}
+#typeticket{
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.note{
+    margin: 0 20%;
+}
+h4{
+    margin: 0 0 50px 0;
+}
+.Event h1{
+    text-align: center;
+    margin: 20px 5% 70px 5%;
+    font-size: 60px;
+    font-weight: bold;
+}
+.open{
+    font-size: 30px;
+}
+.openicon{
+    font-size: 40px;
+}
+.opendetail{
+    font-size: 25px;
+    font-weight:500;
+}
+#eventdetail{
+    margin: 0 10%;
+}
+
+
+/* Nhan's CSS */
+.labelForm{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+#formBooking{
+    border: solid thin blue;
+    /* width: 50%; */
+    margin-right: 200px;
+    background-color: #6699FF;
+    border-radius: 10px;
+    margin-left: 60%;
+}
+#background{
+    background-image: url("/Pictures/mermaid.jpg");
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-size: 1.4em;
+}
+#navbar:hover {
+    color: #fff;
+    cursor: pointer;
+    /* background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 70px;
+    height: 60px;
+}
+#tiltleLogo{
+    font-size: 2em;
+    vertical-align: middle;
+    color: #6EC3C9;
+}
+#timing{
+    position: fixed;
+    /* width: 300px; */
+    bottom: 0px;
+    background-color: darkturquoise;
+    border-radius: 10px;
+
+}

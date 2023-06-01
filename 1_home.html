@@ -1,0 +1,69 @@
+<div>
+
+
+    <div class="welcome">
+        <h1>Welcome to Aquarium Nexus</h1>
+        <p class="home">Welcome to Nexus Aquarium's website! We are an incredible destination for ocean enthusiasts who want to explore the wonders of the underwater world. Combining modernity with a harmonious connection to nature, we offer you an exciting and immersive experience of life beneath the waves. From vibrant and diverse fish tanks to unique educational and entertainment programs, we aim to provide you with a whole new perspective on the ocean. Explore our website and get ready for an unforgettable adventure at Nexus Aquarium!</p>
+    </div>
+
+
+    <div class="container" ng-controller="homectrol">
+        <table class="table table-hover table-striped">
+            <div>
+                <tr>
+                    <th>No</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Size(inch)</th>
+                    <th>Temperament</th>
+                    <th>Compatibility</th>
+                </tr>
+                <tr ng-repeat="item in data">
+                    <td>{{$index+1}}</td>
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.size}}</td>
+                    <td>{{item.temperament}}</td>
+                    <td>{{item.compatibility}}</td>
+                </tr>   
+            </div>
+        </table>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="Pictures/20 Best Bristlenose Pleco Tank Mates/betta-fish-tank-mates.jpg" alt="" class="img-thumbnail">
+                <p class="phome">Betta Fish, known for their striking colors and flowing fins, are a popular choice for many aquarium enthusiasts. However, when it comes to keeping them with Bristlenose Plecos, compatibility can be a bit tricky due to their territorial nature.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="Pictures/20 Best Bristlenose Pleco Tank Mates/black-ghost-knifefish.jpg" alt="" class="img-thumbnail">
+                <p class="phome">Black Ghost Knife Fish are mysterious, captivating creatures that can make an intriguing addition to a Bristlenose Pleco community tank. Their nocturnal nature and unique appearance can add an element of surprise to your aquarium experience.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="Pictures/20 Best Bristlenose Pleco Tank Mates/black-molly-fish.jpg" alt="" class="img-thumbnail">
+                <p class="phome">Molly Fish, known for their bright colors and peaceful demeanor, are a popular choice in community aquariums. Their adaptable nature allows them to share a tank with various species, including Bristlenose Plecos.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="Pictures/30 Best Discus Fish Tank Mates/apistogramma-cacatuoides.jpg" alt="" class="img-thumbnail">
+                <p class="phome">Dwarf Cichlids, specifically from the Apistogramma genus, are small, vibrantly colored cichlids native to the Amazon Basin. With various species and color variations, these fish display a stunning array of fins and body shapes.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="Pictures/30 Best Discus Fish Tank Mates/bloodfin-tetra.jpg" alt="" class="img-thumbnail">
+                <p class="phome">Bloodfin Tetras are small, hardy, freshwater fish known for their striking red coloration on their fins. Hailing from South American river basins, they add a pop of color to planted aquariums and make great additions to discus fish tanks.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="Pictures/30 Best Discus Fish Tank Mates/boesemani-rainbowfish.jpg" alt="" class="img-thumbnail">
+                <p  class="phome">Boesemani Rainbowfish are visually stunning and active swimmer native to the waters of New Guinea. They are best known for their striking two-toned coloration, with males showcasing vibrant shades of blue and yellow.</p>
+            </div>
+        </div>
+    </div>
+</div>
